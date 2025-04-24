@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const URL = 'http://localhost:8000';
+const URL = 'https://inshortsapi.vercel.app/news?category=sports';
 
 
 export const getNews = async (page, size = 5) => {
